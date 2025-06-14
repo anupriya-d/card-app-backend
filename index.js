@@ -12,6 +12,10 @@ const cards = [
   { id: 3, title: "Card Three", description: "This is the third card." }
 ];
 
+app.get('/', (req, res) => {
+  res.send('Welcome to Card App Server !')
+})
+
 // Endpoint to get cards
 app.get('/api/cards', (req, res) => {
   res.json(cards);
