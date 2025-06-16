@@ -9,7 +9,15 @@ app.use(cors());
 const cards = [
   { id: 1, title: "Card One", description: "This is the first card." },
   { id: 2, title: "Card Two", description: "This is the second card." },
-  { id: 3, title: "Card Three", description: "This is the third card." }
+  { id: 3, title: "Card Three", description: "This is the third card." },
+  { id: 4, title: "Card Three", description: "This is the third card." },
+  { id: 5, title: "Card Three", description: "This is the third card." },
+  { id: 6, title: "Card One", description: "This is the first card." },
+  { id: 7, title: "Card Two", description: "This is the second card." },
+  { id: 8, title: "Card Three", description: "This is the third card." },
+  { id: 9, title: "Card Three", description: "This is the third card." },
+  { id: 10, title: "Card Three", description: "This is the third card." }
+
 ];
 
 app.get('/', (req, res) => {
